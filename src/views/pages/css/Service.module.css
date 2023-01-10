@@ -1,0 +1,62 @@
+.modalHeader{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalHeader span {
+    color: #fff;
+}
+.modalBody{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modalFooter{
+    background-color: rgba(0, 0, 0, 0.8);
+   
+}
+
+.labelFile{
+    cursor: pointer;
+    margin-right: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 87px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 465px;
+    height: 100px;
+    border: 4px dashed #ffd;
+}
+
+.labelFile:hover{
+    text-transform: uppercase;
+    text-decoration: dotted;
+    transition: all 5s ease-in-out;
+
+
+}
+
+.selectedFile{
+    color: white;
+    text-align: center;
+    line-height: 87px;
+    display: flex;
+    justify-content: center;
+}
+
+.googleSpan{
+        margin-right: 0.3rem;
+        margin-top: 0.3rem;
+        font-weight: 600;
+        font-family: fantasy;
+}
+
+.uploadBtn{
+    margin: 1rem 0;
+    width: 465px;
+    text-align: center;
+}
+
+.inputFile{
+    display: none;
+}
